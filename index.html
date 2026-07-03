@@ -25,15 +25,7 @@
   <p>The app requires camera access solely to scan barcodes. Camera images are processed entirely on your device and are never stored or transmitted.</p>
 
   <h2>Third Party Services</h2>
-  <p>RedShop Scanner connects to the following third party services to provide pricing information:</p>
-  <ul>
-    <li><strong>CeX (uk.webuy.com)</strong> — to retrieve trade-in prices for scanned items</li>
-    <li><strong>PriceCharting (pricecharting.com)</strong> — to provide historic average sale prices</li>
-    <li><strong>eBay</strong> — to display recent sold listings via the eBay Browse API</li>
-    <li><strong>ScanDex</strong> — to identify products from barcodes</li>
-    <li><strong>Open Library</strong> — to identify books from ISBNs</li>
-  </ul>
-  <p>These services are accessed solely to provide pricing data and are subject to their own privacy policies.</p>
+  <p>RedShop Scanner connects to third party services to provide pricing and product identification information. These services are accessed solely to provide in-app functionality and are subject to their own privacy policies.</p>
 
   <h2>Cloudflare Workers</h2>
   <p>The app uses a Cloudflare Worker as a backend proxy to securely access third party APIs. Barcode lookups are temporarily cached to improve performance. No personal data is stored in this cache.</p>
